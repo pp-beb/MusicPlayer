@@ -164,3 +164,11 @@ function options(){
 function hideDotsDiv(){
     document.getElementById("threeDotsDiv").style.visibility="hidden";
 }
+
+function Settings(){
+    document.getElementById("SettingsDiv").style.visibility="visible";
+}
+
+function hideSetsDiv(){
+    document.getElementById("SettingsDiv").style.visibility="hidden";
+}
