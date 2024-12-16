@@ -148,3 +148,19 @@ function PicHig() {
 
     d.play();
 }
+
+function favouritees(){
+    document.getElementById("favDiv").style.visibility="visible";
+}
+
+function hideFavDiv(){
+    document.getElementById("favDiv").style.visibility="hidden";
+}
+
+function options(){
+    document.getElementById("threeDotsDiv").style.visibility="visible";
+}
+
+function hideDotsDiv(){
+    document.getElementById("threeDotsDiv").style.visibility="hidden";
+}
