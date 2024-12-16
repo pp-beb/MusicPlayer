@@ -40,6 +40,82 @@ body{
             justify-content: center;
             }
 
+            .SettingsDiv{
+                visibility: hidden;
+                background-color: #d7e3eb;
+                border-radius: 40px;
+                position: absolute;
+                top: 25%;
+                left: 55%;
+                height: 400px;
+                width: 250px;
+                display: flex;
+                justify-content: center;
+                }
+
+                .SetsLater{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background-color:#c7ceda;
+                    position: absolute;
+                    top: 7%;
+                    left: 100px;
+                    box-shadow: 3px 3px 5px #918093;
+                    font-size: xx-large;
+                }
+            
+                .SetsLater a{
+                    position: relative;
+                    top: 0%;
+                    left: 20%;
+                    color: #999fa9;
+            
+                }
+            
+                .SettingsDiv h3{
+                    margin: 5px;
+                    position:relative;
+                    top: 0%;
+                    left: 50px;
+            
+                }
+            
+                .SettingsDiv h4{
+                    margin: 5px;
+                    position: relative;
+                    top: 50%;
+                    right: 23%;
+                    font-style: italic;
+                    color:#918093;
+                }
+                
+                .SetsBack{
+                    height: 25px;
+                    width: 25px;
+                    border-radius: 50%;
+                    background-color:#c7ceda;
+                    position: absolute;
+                    top: 23%;
+                    left: 10%;
+                    box-shadow: 3px 3px 5px #918093;
+                    cursor: pointer;
+                }
+            
+                .SetsBack:hover{
+                    background-color: #658ccf;
+                }
+            
+                .SetsBack a{
+                        position: relative;
+                        top: 3px;
+                        left: 5px;
+                        color: #999fa9;    
+                }
+                
+              
+
+
     h3{
         color: #353639;
         font-style: italic;
