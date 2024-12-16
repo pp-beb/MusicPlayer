@@ -1,0 +1,343 @@
+body{
+    background-color:#c7ceda;
+    }
+    
+    .listDiv{
+    background-color: #d7e3eb;
+    border-radius: 40px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    h3{
+        color: #353639;
+        font-style: italic;
+        font-size: smaller;
+    }
+    
+    .songPic{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 15%;
+        box-shadow: 3px 3px 5px #999fa9;
+    }
+    
+    .fav{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 23%;
+        left: 10%;
+        box-shadow: 3px 3px 5px #918093;
+    }
+    
+    .threeDots{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 23%;
+        right: 10%;
+        box-shadow: 3px 3px 5px #918093;
+    }
+    
+    .song{
+        height:70px ;
+        width:70px ;
+        border-radius: 50%;
+        position: absolute;
+       top: 5px;
+       left: 5px;
+       box-shadow: -3px -3px 5px #999fa9;
+    }
+    
+    .two, .three, .four{
+        visibility: hidden;
+    }
+
+    .twoB, .threeB, .fourB{
+        visibility: hidden;
+    }
+
+    .threeDots a{
+        position: relative;
+        top: 0px;
+        left: 5px;
+        color: #999fa9;
+    }
+    
+    .fav a{
+        position: relative;
+        top: 6px;
+        left: 8px;
+        color: #999fa9;
+    }
+    
+    .downList{
+        width: 220px;
+        height: 230px;
+        position: absolute;
+        top: 37%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .song1name{
+        margin: 10px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .song2name{
+        border-radius: 10px;
+        margin: 10px;
+        height: 40px;
+        width: 200px;
+    }
+    
+    .song3name{
+        margin: 10px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .song4name{
+        margin: 10px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .song1name h4{
+        margin-left: 5px;
+       position: relative;
+        bottom: 13px;
+        font-size: small;
+        color: #7b7e84;
+    }
+    
+    .song1name h5{
+        margin-left: 5px;
+        position: relative;
+         bottom: 20px;
+         font-size: xx-small;
+         font-style: italic;
+         color: #393a3e;
+     }
+    
+     .song2name h4{
+        margin-left: 5px;
+       position: relative;
+        bottom: 13px;
+        font-size: small;
+        color: #7b7e84;
+    }
+    
+    .song2name h5{
+        margin-left: 5px;
+        position: relative;
+         bottom: 20px;
+         font-size: xx-small;
+         font-style: italic;
+         color: #393a3e;
+     }
+    
+     .song3name h4{
+        margin-left: 5px;
+       position: relative;
+        bottom: 13px;
+        font-size: small;
+        color: #7b7e84;
+    }
+    
+    .song3name h5{
+        margin-left: 5px;
+        position: relative;
+         bottom: 20px;
+         font-size: xx-small;
+         font-style: italic;
+         color: #393a3e;
+     }
+    
+     .song4name h4{
+        margin-left: 5px;
+       position: relative;
+        bottom: 13px;
+        font-size: small;
+        color: #7b7e84;
+    }
+    
+    .song4name h5{
+        margin-left: 5px;
+        position: relative;
+         bottom: 20px;
+         font-size: xx-small;
+         font-style: italic;
+         color: #393a3e;
+     }
+    
+     .playbtn{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: relative;
+        right: 5px;
+        bottom: 67px;
+        left: 160px;
+        box-shadow: 3px 3px 5px #918093;
+     }
+    
+     .playbtn a{
+        position: relative;
+        top: 2px;
+        left: 8px;
+        color: #999fa9;
+    }
+    
+    .song1name:hover, 
+    .song2name:hover, 
+    .song3name:hover, 
+    .song4name:hover {
+        background-color: #a4b7ef;
+        cursor: pointer;
+        
+    }
+    
+    .one:hover{
+        height:80px ;
+        width:80px ;
+        border-radius: 50%;
+        position: relative;
+       top: 5px;
+       left: 5px;
+       transition: 0.5s;
+       box-shadow: 0px 0px 0px #d7e3eb;
+       cursor: pointer;
+    }
+    
+    .playbtn:hover{
+        background-color:#f5dffa;
+     }
+    
+     .fav:hover{
+        background-color:#658ccf;
+        cursor: pointer;
+    }
+    
+    .threeDots:hover{
+        background-color:#658ccf;
+        cursor: pointer;
+    }
+    
+    
+    
+    .playingDiv{
+        background-color: #d7e3eb;
+        border-radius: 40px;
+        position: absolute;
+        top: 18%;
+        left: 33%;
+        height: 400px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        }
+    
+    .songPicB{
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 15%;
+        box-shadow: 3px 3px 5px #999fa9;
+    }
+    
+    .songB{
+        height:130px ;
+        width:130px ;
+        border-radius: 50%;
+        position: absolute;
+       top: 5px;
+       left: 5px;
+       box-shadow: -3px -3px 5px #999fa9;
+    }
+    
+    .back{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 3%;
+        left: 10%;
+        box-shadow: 3px 3px 5px #918093;
+    }
+    
+    .threeBars{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color:#c7ceda;
+        position: absolute;
+        top: 3%;
+        right: 10%;
+        box-shadow: 3px 3px 5px #918093;
+    }
+    
+    .threeBars a{
+        position: relative;
+        top: 1px;
+        left: 6px;
+        color: #999fa9;
+    }
+    
+    .back a{
+        position: relative;
+        top: 3px;
+        left: 5px;
+        color: #999fa9;
+    }
+    
+    .playingDiv h4{
+    position: absolute;
+    top: 50%;
+    }
+    
+    .playingDiv h5{
+    position: absolute;
+    top: 55%;
+    color: #918093;
+    }
+    
+    .audio1, .audio2, .audio3, .audio4{
+        position: absolute;
+        top: 70%;
+        width: 200px;
+        visibility: hidden;
+    }
+    
+    .back:hover{
+        background-color:#658ccf;
+        cursor: pointer;
+    }
+    
+    .threeBars:hover{
+        background-color:#658ccf;
+        cursor: pointer;
+    }
+    
