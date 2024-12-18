@@ -110,6 +110,7 @@ function PicJap() {
     b.pause();
 
     c.play();
+    console.log("haha");
 }
 
 function PicHig() {
