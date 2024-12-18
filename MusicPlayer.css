@@ -13,6 +13,10 @@ body{
     display: flex;
     justify-content: center;
     }
+
+    .listDiv:hover{
+      box-shadow: 20px 20px 0px #a4b7ef;
+        }
     
     .favDiv{
         visibility: hidden;
@@ -464,7 +468,10 @@ body{
         cursor: pointer;
     }
     
-    
+    .playingDiv:hover{
+        box-shadow: -20px 20px 0px #a4b7ef;
+      transition: 0.5s; 
+    }
     
     .playingDiv{
         background-color: #d7e3eb;
@@ -561,4 +568,69 @@ body{
         background-color:#658ccf;
         cursor: pointer;
     }
-    
+
+    .listDivBig{
+        visibility: hidden;
+        background-color: #d7e3eb;
+        border-radius: 40px;
+        position: absolute;
+        top: 10%;
+        left: 42%;
+        height: 480px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        }
+        .songPicBig{
+            height: 96px;
+            width: 96px;
+            border-radius: 50%;
+            background-color:#c7ceda;
+            position: absolute;
+            left: 35%;
+            top: 15%;
+            box-shadow: 3px 3px 5px #999fa9;
+        }
+
+        .songBig{
+            height:80px ;
+            width: 80px;
+            border-radius: 50%;
+            position: absolute;
+           top: 8px;
+           left: 8px;
+           box-shadow: -3px -3px 5px #999fa9;
+        }
+        
+        .songBig:hover{
+            height: 96px;
+            width: 96px;
+            border-radius: 50%;
+            position: absolute;
+           top: 5px;
+           left: 5px;
+           box-shadow: -3px -3px 5px #999fa9;
+        }
+
+        .full{
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background-color:#c7ceda;
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            box-shadow: 3px 3px 5px #918093;
+            cursor: pointer;
+        }
+
+        .full:hover{
+            background-color: #658ccf;
+        }
+
+        .full a{
+            position: absolute;
+            left: 30%;
+            top: 22%;
+            color:#999fa9;
+        }

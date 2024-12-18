@@ -173,3 +173,10 @@ function Settings(){
 function hideSetsDiv(){
     document.getElementById("SettingsDiv").style.visibility="hidden";
 }
+
+function fullList(){
+    document.getElementById("listDiv").style.visibility="hidden";
+    document.getElementById("playingDiv").style.visibility="hidden";
+    document.getElementById("listDivBig").style.visibility="visible";
+    document.getElementById("listDiv").style.transition="0s";
+}
