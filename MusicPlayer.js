@@ -81,6 +81,7 @@ function PicDoI() {
     c.pause();
 
     a.play();
+    console.log("called");
 }
 
 function PicJap() {

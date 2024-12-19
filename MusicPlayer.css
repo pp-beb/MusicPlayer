@@ -493,7 +493,10 @@ body{
         background-color:#c7ceda;
         position: absolute;
         top: 15%;
-        box-shadow: 3px 3px 4px #999fa9;
+
+        box-shadow: 3px 3px 6px #999fa9;
+
+        
     }
     
     .songB{
