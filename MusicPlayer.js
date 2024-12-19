@@ -15,6 +15,11 @@ function PicODE() {
     document.getElementById("play3").innerText="▶";
     document.getElementById("play4").innerText="▶";
 
+    document.getElementById("play2a").innerText="| |";
+    document.getElementById("play1a").innerText="▶";
+    document.getElementById("play3a").innerText="▶";
+    document.getElementById("play4a").innerText="▶";
+
     document.getElementById("title").innerText="Ode to the Mets";
     document.getElementById("artist").innerText="The strokes";  
 
@@ -51,6 +56,11 @@ function PicDoI() {
     document.getElementById("play2").innerText="▶";
     document.getElementById("play3").innerText="▶";
     document.getElementById("play4").innerText="▶";
+
+    document.getElementById("play1a").innerText="| |";
+    document.getElementById("play2a").innerText="▶";
+    document.getElementById("play3a").innerText="▶";
+    document.getElementById("play4a").innerText="▶";
 
     document.getElementById("title").innerText="Do I wanna know";
     document.getElementById("artist").innerText="Arctic Monkeys";  
@@ -90,6 +100,11 @@ function PicJap() {
     document.getElementById("play1").innerText="▶";
     document.getElementById("play4").innerText="▶";
 
+    document.getElementById("play3a").innerText="| |";
+    document.getElementById("play2a").innerText="▶";
+    document.getElementById("play1a").innerText="▶";
+    document.getElementById("play4a").innerText="▶";
+
     document.getElementById("title").innerText="Japanese Denim";
     document.getElementById("artist").innerText="Daniel Caeser";  
 
@@ -128,6 +143,11 @@ function PicHig() {
     document.getElementById("play2").innerText="▶";
     document.getElementById("play3").innerText="▶";
     document.getElementById("play1").innerText="▶";
+
+    document.getElementById("play4a").innerText="| |";
+    document.getElementById("play2a").innerText="▶";
+    document.getElementById("play3a").innerText="▶";
+    document.getElementById("play1a").innerText="▶";
 
     document.getElementById("title").innerText="High and Dry";
     document.getElementById("artist").innerText="Radiohead";  
@@ -175,8 +195,55 @@ function hideSetsDiv(){
 }
 
 function fullList(){
+    function findVisibleImage() {
+    
+        const images = document.querySelectorAll('img');
+        
+    
+        for (const image of images) {
+            const style = window.getComputedStyle(image);
+            if (style.visibility !== 'hidden' && Element.id!="songBig") {
+                const songImage = document.getElementById(image.id).src;
+    document.getElementById("songBig").src = songImage;
+    document.querySelectorAll('audio').forEach(audio => {
+        audio.style.visibility = "hidden";
+    });
+    
+                
+            }
+            
+        }}
+        setInterval(findVisibleImage, 10);
+        
     document.getElementById("listDiv").style.visibility="hidden";
     document.getElementById("playingDiv").style.visibility="hidden";
     document.getElementById("listDivBig").style.visibility="visible";
     document.getElementById("listDiv").style.transition="0s";
+   
+    document.getElementById("premium").style.visibility="hidden";
+
 }
+
+
+function closeListBig(){
+    document.getElementById("listDiv").style.visibility="visible";
+    document.getElementById("playingDiv").style.visibility="visible";
+    document.getElementById("listDivBig").style.visibility="hidden";
+    document.getElementById("listDiv").style.transition="0.5s";
+    document.getElementById("premium").style.visibility="visible";
+}
+
+
+function findVisibleImage() {
+    
+    const images = document.querySelectorAll('img');
+    
+
+    for (const image of images) {
+        const style = window.getComputedStyle(image);
+        if (style.visibility !== 'hidden') {
+            return image; 
+        }
+    }}
+
+    

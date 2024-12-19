@@ -16,6 +16,7 @@ body{
 
     .listDiv:hover{
       box-shadow: 20px 20px 0px #a4b7ef;
+      transition: 0.5s;
         }
     
     .favDiv{
@@ -633,4 +634,37 @@ body{
             left: 30%;
             top: 22%;
             color:#999fa9;
+        }
+
+        .listBigBack{
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background-color:#c7ceda;
+            position: absolute;
+            top: 23%;
+            left: 10%;
+            box-shadow: 3px 3px 5px #918093;
+        }
+
+        .listBigBack:hover{
+          background-color: #658ccf;
+          cursor: pointer;
+        }
+
+        .listBigBack a{
+            position: absolute;
+            left: 20%;
+            top: 15%;
+            color:#999fa9;
+        }
+
+        .premium{
+           visibility: hidden;
+            position: absolute;
+            top: 70%;
+            margin: 2px;
+            font-style: italic;
+            color: #999fa9;
+            text-align: center;
         }
