@@ -10,6 +10,16 @@ function PicODE() {
     document.getElementById("songB threeB").style.visibility="hidden";
     document.getElementById("songB fourB").style.visibility="hidden";
 
+
+    document.getElementById("title").innerText="Ode to the Mets";
+    document.getElementById("artist").innerText="The strokes";  
+
+    document.getElementById("audio1").style.visibility="hidden";
+    document.getElementById("audio2").style.visibility="visible";
+    document.getElementById("audio3").style.visibility="hidden";
+    document.getElementById("audio4").style.visibility="hidden";
+   
+    if(document.getElementById("play2").innerText==="▶" || document.getElementById("play2a").innerText==="▶"){
     document.getElementById("play2").innerText="| |";
     document.getElementById("play1").innerText="▶";
     document.getElementById("play3").innerText="▶";
@@ -19,14 +29,6 @@ function PicODE() {
     document.getElementById("play1a").innerText="▶";
     document.getElementById("play3a").innerText="▶";
     document.getElementById("play4a").innerText="▶";
-
-    document.getElementById("title").innerText="Ode to the Mets";
-    document.getElementById("artist").innerText="The strokes";  
-
-    document.getElementById("audio1").style.visibility="hidden";
-    document.getElementById("audio2").style.visibility="visible";
-    document.getElementById("audio3").style.visibility="hidden";
-    document.getElementById("audio4").style.visibility="hidden";
 
     const a=document.getElementById("audio1");
     const b=document.getElementById("audio2");
@@ -38,6 +40,13 @@ function PicODE() {
     c.pause();
 
     b.play();
+    }
+    else{
+        document.getElementById("play2").innerText="▶";
+        document.getElementById("play2a").innerText="▶";
+        const b=document.getElementById("audio2");
+        b.pause();
+    }
 }
 
 function PicDoI() {
@@ -52,6 +61,16 @@ function PicDoI() {
     document.getElementById("songB threeB").style.visibility="hidden";
     document.getElementById("songB fourB").style.visibility="hidden";
 
+    document.getElementById("title").innerText="Do I wanna know";
+    document.getElementById("artist").innerText="Arctic Monkeys";  
+
+    document.getElementById("audio2").style.visibility="hidden";
+    document.getElementById("audio1").style.visibility="visible";
+    document.getElementById("audio3").style.visibility="hidden";
+    document.getElementById("audio4").style.visibility="hidden";
+
+
+    if( document.getElementById("play1").innerText==="▶" || document.getElementById("play1a").innerText==="▶"){
     document.getElementById("play1").innerText="| |";
     document.getElementById("play2").innerText="▶";
     document.getElementById("play3").innerText="▶";
@@ -62,14 +81,6 @@ function PicDoI() {
     document.getElementById("play3a").innerText="▶";
     document.getElementById("play4a").innerText="▶";
 
-    document.getElementById("title").innerText="Do I wanna know";
-    document.getElementById("artist").innerText="Arctic Monkeys";  
-
-    document.getElementById("audio2").style.visibility="hidden";
-    document.getElementById("audio1").style.visibility="visible";
-    document.getElementById("audio3").style.visibility="hidden";
-    document.getElementById("audio4").style.visibility="hidden";
-
     const a=document.getElementById("audio1");
     const b=document.getElementById("audio2");
     const c=document.getElementById("audio3");
@@ -79,9 +90,14 @@ function PicDoI() {
     b.pause();
     d.pause();
     c.pause();
-
     a.play();
-    console.log("called");
+    }
+    else{
+        document.getElementById("play1").innerText="▶";
+        document.getElementById("play1a").innerText="▶";
+        const a=document.getElementById("audio1");
+        a.pause();
+    }
 }
 
 function PicJap() {
@@ -96,6 +112,16 @@ function PicJap() {
     document.getElementById("songB threeB").style.visibility="visible";
     document.getElementById("songB fourB").style.visibility="hidden";
 
+    document.getElementById("title").innerText="Japanese Denim";
+    document.getElementById("artist").innerText="Daniel Caeser";  
+
+    document.getElementById("audio1").style.visibility="hidden";
+    document.getElementById("audio3").style.visibility="visible";
+    document.getElementById("audio2").style.visibility="hidden";
+    document.getElementById("audio4").style.visibility="hidden";
+
+
+    if(document.getElementById("play3").innerText==="▶" || document.getElementById("play3a").innerText==="▶"){
     document.getElementById("play3").innerText="| |";
     document.getElementById("play2").innerText="▶";
     document.getElementById("play1").innerText="▶";
@@ -106,14 +132,6 @@ function PicJap() {
     document.getElementById("play1a").innerText="▶";
     document.getElementById("play4a").innerText="▶";
 
-    document.getElementById("title").innerText="Japanese Denim";
-    document.getElementById("artist").innerText="Daniel Caeser";  
-
-    document.getElementById("audio1").style.visibility="hidden";
-    document.getElementById("audio3").style.visibility="visible";
-    document.getElementById("audio2").style.visibility="hidden";
-    document.getElementById("audio4").style.visibility="hidden";
-
     const a=document.getElementById("audio1");
     const b=document.getElementById("audio2");
     const c=document.getElementById("audio3");
@@ -123,9 +141,14 @@ function PicJap() {
     a.pause();
     d.pause();
     b.pause();
-
     c.play();
-    console.log("haha");
+    }
+    else{
+        document.getElementById("play3").innerText="▶";
+        document.getElementById("play3a").innerText="▶";
+        const c=document.getElementById("audio3");
+        c.pause();
+    }
 }
 
 function PicHig() {
@@ -140,6 +163,16 @@ function PicHig() {
     document.getElementById("songB threeB").style.visibility="hidden";
     document.getElementById("songB fourB").style.visibility="visible";
 
+    document.getElementById("title").innerText="High and Dry";
+    document.getElementById("artist").innerText="Radiohead";  
+
+    document.getElementById("audio1").style.visibility="hidden";
+    document.getElementById("audio4").style.visibility="visible";
+    document.getElementById("audio3").style.visibility="hidden";
+    document.getElementById("audio2").style.visibility="hidden";
+
+
+    if(document.getElementById("play4").innerText==="▶" || document.getElementById("play4a").innerText==="▶"){
     document.getElementById("play4").innerText="| |";
     document.getElementById("play2").innerText="▶";
     document.getElementById("play3").innerText="▶";
@@ -150,14 +183,6 @@ function PicHig() {
     document.getElementById("play3a").innerText="▶";
     document.getElementById("play1a").innerText="▶";
 
-    document.getElementById("title").innerText="High and Dry";
-    document.getElementById("artist").innerText="Radiohead";  
-
-    document.getElementById("audio1").style.visibility="hidden";
-    document.getElementById("audio4").style.visibility="visible";
-    document.getElementById("audio3").style.visibility="hidden";
-    document.getElementById("audio2").style.visibility="hidden";
-
     const a=document.getElementById("audio1");
     const b=document.getElementById("audio2");
     const c=document.getElementById("audio3");
@@ -167,8 +192,14 @@ function PicHig() {
     a.pause();
     b.pause();
     c.pause();
-
     d.play();
+    }
+    else{
+        document.getElementById("play4").innerText="▶";
+        document.getElementById("play4a").innerText="▶";
+        const d=document.getElementById("audio4");
+        d.pause();
+    }
 }
 
 function favouritees(){
@@ -214,7 +245,7 @@ function fullList(){
             }
             
         }}
-        setInterval(findVisibleImage, 10);
+        setInterval(findVisibleImage, 1);
         
     document.getElementById("listDiv").style.visibility="hidden";
     document.getElementById("playingDiv").style.visibility="hidden";

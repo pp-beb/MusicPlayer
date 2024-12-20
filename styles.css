@@ -671,3 +671,21 @@ body{
             color: #999fa9;
             text-align: center;
         }
+
+    
+          audio::-webkit-media-controls-play-button,
+          audio::-webkit-media-controls-volume-slider,
+          audio::-webkit-media-controls-current-time-display,
+          audio::-webkit-media-controls-time-remaining-display,
+          audio::-webkit-media-controls-mute-button,
+          audio::-webkit-media-controls-seek-back-button,
+          audio::-webkit-media-controls-seek-forward-button,
+          audio::-webkit-media-controls-fullscreen-button {
+            display: none;
+          }
+
+          audio::-webkit-media-controls-menu-button {
+            display: none !important;
+          }
+          
+      
