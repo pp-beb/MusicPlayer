@@ -13,8 +13,8 @@ A basic music player that ask you to buy a premium.
 
 
 ## Usage
-1. Just normal cloning 
-2. Open the folder
+1. Just normal cloning .
+2. Open the folder.
 3. Checkout the player on index.html
 
 ## Screenshot
