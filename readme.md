@@ -7,7 +7,7 @@ A basic music player that ask you to buy a premium.
 - Good looking and directive hover effects.
 
 ## Made using
-- **HTML**: Basic skeleton for both the players and their elements.
+- **HTML5**: Basic skeleton for both the players and their elements.
 - **CSS**: To style i.e add colors, depth , transitions and hover-effectts.
 - **JavaScript**: To add functions, and make the page interactive.
 
